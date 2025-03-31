@@ -100,8 +100,8 @@ public class NextDate {
 						return "Invalid Input Date";
 				}
 				//
-				else if(day > 29) //invalid input as February will never have more than 29 days
-					return "Invalid Input Date";
+//				else if(day > 29) //invalid input as February will never have more than 29 days
+//					return "Invalid Input Date";
 			}
 		}
 		//return the string representing the nextDate, in the form MM/DD/YY
@@ -121,8 +121,8 @@ public class NextDate {
 	private static boolean isThirtyOneDayMonth(int month)
 	{
 		// To fix "Fault 3", uncomment the correct line 125 and comment out the incorrect line 124
-		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;
-//		return month == 1 || month == 3 || month == 5 || month==7 || month == 8 || month == 10;
+//		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;
+		return month == 1 || month == 3 || month == 5 || month==7 || month == 8 || month == 10;
 	}
 	
 	
